@@ -1,0 +1,1 @@
+This repository demonstrates a common issue with the `useNavigate` hook in React Router v6 and its solution.  The bug.js file shows the problematic implementation, where `navigate` is called synchronously and therefore does not function correctly. The bugSolution.js file provides a corrected version using useEffect hook, ensuring that navigation happens after component rendering.
